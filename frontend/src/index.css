@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.navigation button {
+  padding: 10px;
+  margin: 0 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.api-response {
+  margin-top: 20px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 20px;
+}
+
+.response-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.response-table th, 
+.response-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.response-table th {
+  background-color: #f2f2f2;
+  text-transform: capitalize;
+}
+
+.response-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
